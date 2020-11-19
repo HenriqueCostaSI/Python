@@ -44,7 +44,6 @@ numero_impam = 5
 if 'a' in 'banana':
     print('tem')
 
-
 """ 
 
 4)Separar funções e definições de classe com duas linhas em branco
@@ -54,9 +53,9 @@ if 'a' in 'banana':
     
 """
 
-import sys
+# import sys
 
-#caso tenha muitos imports de um mesmo pacote, recomenda-se fazer:
+# caso tenha muitos imports de um mesmo pacote, recomenda-se fazer:
 
 """
 from types import (
@@ -66,17 +65,17 @@ from types import (
 )
 """
 
-#Imports devem ser colocados no topo do arquivo, logo depois de qualquer comentário ou docstrings e antes de constantes e variaveis globais
+# Imports devem ser colocados no topo do arquivo, logo depois de qualquer comentário ou docstrings e antes de
+# constantes e variaveis globais
 
 """ 
 
 6)Espaços em expressões e instruçoes
 
 """
-#fazer 
+# fazer
 
 x = 5
-
 
 """
 
