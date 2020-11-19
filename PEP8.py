@@ -73,6 +73,10 @@ from types import (
 6)Espaços em expressões e instruçoes
 
 """
+#fazer 
+
+x = 5
+
 
 """
 
