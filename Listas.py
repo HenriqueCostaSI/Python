@@ -232,3 +232,86 @@ numeros = [ 32, 242, 34, 56 , 4, 2, 89]
 print(numeros.index(32))
 
 print(numeros.index(241))
+
+""""""
+
+#Buscando dentro de um range de
+
+print(numeros.index(34, 2)) ##Buscando a partir do indice 2
+
+print(numeros.index(34, 1, 5)) ##Buscando dentro do range 1 a 5
+
+""""""
+
+#Slicing
+
+##Lista[inicio:fim:passo]
+
+lista = [1, 2, 3, 4]
+
+print(lista[1:]) ##Iniciando a partir do index 1
+
+##Parâmetro fim 
+
+print(lista[:2]) ##Começa no 0 até o indice 1
+
+print(lista[1:4])
+
+##Passo
+
+print(lista[1::2]) ##Começa em 1 e vai de 2 em 241
+
+##Negativo
+
+print(lista[1::-1]) ##Inverte 
+
+
+""""""
+
+# Soma, Valor Máximo, Valor Minimo, Tamanho
+
+lista = [1, 2, 3, 4]
+
+print(sum(lista))
+print(max(lista))
+print(min(lista))
+print(len(lista))
+
+
+""""""
+
+#Lista -> Tupla
+
+tupla = tuple(lista)
+
+
+""""""
+
+#Desempacotamento de lista
+
+num1, num2, num3 = lista
+
+
+""""""
+
+#COPIANDO UMA LISTA
+
+##Shallow Copy e Deep Copy
+
+##1)DEEP COPY
+
+nova = lista.copy()
+
+nova.append(4)
+
+##Shallow Copy (Ambas as listas são modificadas)
+
+nova = lista
+
+nova.append(5)
+
+print(lista)
+print(nova)
+
+
+
