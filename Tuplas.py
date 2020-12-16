@@ -43,4 +43,91 @@ print(len(tupla11))
 
 #Concatenação de Tuplas
 
-tupla1 = (1,3, 4, 5)
+tupla1 = (1, 3, 4)
+tupla2 = (5, 6, 7)
+
+print(tupla1 + tupla2)
+##Elas não serão alteradas
+
+""""""
+#Podemos sobrescrever seus valores
+
+tupla1 = tupla1 + tupla2
+
+""""""
+
+#verificar se está contido
+
+print(3 in tupla1)
+
+
+""""""
+
+#Interando sobre uma tupla
+
+for n in tupla1:
+    print(n)
+
+for indice, valor in enumerate(tupla1):
+    print(indice, valor)
+
+
+""""""
+
+#Contando um elemnto da tupla
+
+print(tupla1.cont(3))
+
+""""""
+
+#String -> tuple
+
+escola = tuple("Geek Universe")
+
+print(escola.count('e'))
+
+
+# Dicas para utilização de Tuplas
+
+##Devemos Utiliuzar tuplas SEMPRE que não precisarmos modificar os dados contidos em uma coleção
+
+###Exemplos meses do ano meses("Janeiro", "Fevereiro", ...)
+
+""""""
+
+#Acesso via indice
+
+print(escola[1])
+
+""""""
+#interar usando While
+
+while i < len(escola):
+    print(escola[2])
+    i = i + 1
+
+""""""
+
+#Verificamos em qual índice um elemento está na tupla1
+
+print(meses.index('a'))
+
+#Obs: Caso o elemento não exista, será gerado ValueError
+
+"""""""
+
+#Slicing
+##tupla(inicio:fim:passo)
+
+print(tupla[3:])
+
+""""""
+
+
+#############################################################################
+
+
+"""
+->TUPLAS SÃO MAIS RAPIDAS
+->SÃO MAIS SEGURAS
+""""""
