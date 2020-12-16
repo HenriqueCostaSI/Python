@@ -122,6 +122,7 @@ print(meses.index('a'))
 print(tupla[3:])
 
 """"""
+nova = tupla1 #Na tupla nao temos o problema de Shallow copy
 
 
 #############################################################################
