@@ -92,3 +92,65 @@ print(receita)
 
 #Adicionar
 
+carrinho = {}
+
+produto1 = {'nome': 'Playstation 4', 'quantidade':1 , 'preço': 2350}
+produto2 = {'nome': 'Xbox', 'quanaitida': 2, 'preço':2300}
+
+carrinho.append(produto1)
+carrinho.append(produto2)
+
+print(carrinho)
+
+################################
+
+#Métodos de dicionário
+
+d = dict(a=1, b=2, c=3)
+
+print(d)
+
+#Limpar Dicionario
+
+d.clear()
+
+################################
+
+#COPIANDO
+
+novo = d.copy()#DEEPCOPy
+
+novo['d'] = 439
+
+print(d)
+print(novo)
+
+#Shallow Copy
+
+novo = d
+
+novo['d'] = 439
+
+print(d)
+print(novo)
+
+################################
+
+#Forma nao usual de criação de dicionários
+
+outro = {}.fromkeys('a','b','c')
+
+print(outro)
+print(type(outro))
+
+usuario = {}.fromkeys(['nome', 'pontos', 'email'], 'Desconhecido')
+
+print(usuario)
+print(type(usuario))
+
+#O método from keys recebe dois parâmetros: um interável e um valor
+
+veja ={}.fromkeys(range(1,11), 'novo')
+
+print(veja)
+
