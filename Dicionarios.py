@@ -153,4 +153,3 @@ print(type(usuario))
 veja ={}.fromkeys(range(1,11), 'novo')
 
 print(veja)
-
