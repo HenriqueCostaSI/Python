@@ -8,4 +8,4 @@ numeros = [1, 2, 3]
 
 ret = numeros.pop()
 
-print(numeros)
+print(f'Retrono de pop: {ret})
