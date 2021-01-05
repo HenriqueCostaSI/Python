@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 """
 Named Tuple-> São tupla, diferenciadas, onde especificamos um nome para a mesma e tambem parâmetros
 

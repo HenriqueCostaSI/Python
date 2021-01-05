@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 """
 Counter -> Recebe um interavel como parâmetro e cria um objeto do tipo Collections Counter, que é parecido com um dicionário, contendo como chave o elemento 
 da lista passada como parâmetro e coomo valor a quantidade de ocorrencias desse elemento

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 """
 Definindo Funções 
 
