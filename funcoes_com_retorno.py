@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 Funções com retorno
 
@@ -7,6 +6,6 @@ Funções com retorno
 
 numeros = [1, 2, 3]
 
-numeros.pop()
+ret = numeros.pop()
 
 print(numeros)
