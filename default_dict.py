@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 https://docs.python.org/3/library/collections.html
 
@@ -30,4 +31,3 @@ dict = {'cursor':'Programacao em Python'}
 
 print(dict)
 
-print(dict['outro'])

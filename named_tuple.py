@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 Named Tuple-> São tupla, diferenciadas, onde especificamos um nome para a mesma e tambem parâmetros
 
@@ -50,4 +51,3 @@ print(ray.nome)
 print(ray.index('Chow-Chow'))
 
 print(ray.count('Chow-Chow'))
-

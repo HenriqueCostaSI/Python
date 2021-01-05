@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 Definindo Funções 
 

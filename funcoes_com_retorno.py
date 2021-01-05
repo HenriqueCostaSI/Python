@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 """
 Funções com retorno
 
