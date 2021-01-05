@@ -1,4 +1,3 @@
-
 """
 Deque -> Podemos dizer que deque é uma lista de alta performance 
 
