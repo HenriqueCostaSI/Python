@@ -92,4 +92,4 @@ numeros = [1, 2, 3, 4, 5, 6]
 print(soma(*numeros))
 
 # OBS: O asteisco serve para que informemos ao Python que estamos passando como argumento uma coleção de dados.
-# desda forma ele executará um desempacotamento
+# desta forma ele executará um desempacotamento
