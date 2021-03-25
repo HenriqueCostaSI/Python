@@ -15,7 +15,7 @@ print(numeros)
 
 # TRansformando em dicionarios
 
-numeros = {x: x ** 2 fox x in range(10)}
+numeros = {x: x ** 2 for x in range(10)}
 print(numeros)
 
 # Para finalizar

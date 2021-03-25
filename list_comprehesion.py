@@ -13,7 +13,7 @@ List Comprehension
 
 numeros = [1, 2, 3, 4, 5, 6]
 
-res = [numer * 10 for numero in numero]
+res = [numer * 10 for numero in numeros]
 
 print(res)
 
@@ -26,7 +26,7 @@ Para entender melhor o que está acontecendo devemos dividir a expressão em dua
 
 """
 
-res = [numero / 2 for numero in numero]
+res = [numero / 2 for numero in numeros]
 print(res)
 
 
