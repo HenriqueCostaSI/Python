@@ -69,7 +69,7 @@ print([letra.upper() for letra in nome])
 
 
 def caixa_alta(nome):
-    nome = nome.replaace(nome[0], nome[0].upper())
+    nome = nome.replace(nome[0], nome[0].upper())
     return nome
 
 

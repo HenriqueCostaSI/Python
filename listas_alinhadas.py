@@ -29,7 +29,7 @@ for lista in listas:
 
 # List Comprehension
 
-[[print(valoer) for valor in lisa] for lista in listas]
+[[print(valor) for valor in lista] for lista in listas]
 
 # Outros exemplos
 
@@ -40,8 +40,7 @@ print(matrix)
 
 # Gernado jogadas para o jogo da velha
 
-velha = [['X' if numero % 2 == 0 else 'O' for numero in range(
-    1, 4)] for valor in range(1, 4)]
+velha = [['X' if numero % 2 == 0 else 'O' for numero in range(1, 4)] for valor in range(1, 4)]
 
 # Gerando valor iniciais
 

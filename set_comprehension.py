@@ -10,7 +10,7 @@ print(numeros)
 
 # Outro exemplo
 
-numeros = {x ** 2 fox x in range(10)}
+numeros = {x ** 2 for x in range(10)}
 print(numeros)
 
 # TRansformando em dicionarios
