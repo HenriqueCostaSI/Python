@@ -52,7 +52,7 @@ prova1 = [80, 90, 78]
 prova2 = [98, 58, 98]
 alunos = ['Maria', 'Pedro', 'Carla']
 
-final = {dado[0]: max(dado[1], dado[2] for daddo in zip(alunos, prova1, prova2))}
+final = {dados[0]: max(dados[1], dado[2] for dados in zip(alunos, prova1, prova2))}
 
 # Podemos utilizar um map()
 
