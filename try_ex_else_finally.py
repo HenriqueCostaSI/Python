@@ -6,7 +6,7 @@ Dica de quando tratar o código: TODA ENTRADA deve ser TRATADA!
 
 """
 num = 0
-#Else -> É executado somente se não ocorrer o erro
+# Else -> É executado somente se não ocorrer o erro
 try:
     num = int(input("Informe um número"))
 except ValueError:
@@ -32,7 +32,7 @@ finally:
 
 # Exemplo mais complexo errado
 
-def dividir(a, b): 
+def dividir(a, b):
     return a / b
 
 
@@ -50,10 +50,11 @@ except:
     print('Valor incorreto')
 
 # Exemplo Complexo correto
-# OBS: Você é responsável pelas entradas das suas funções. 
+# OBS: Você é responsável pelas entradas das suas funções.
+
 
 def dividir(a, b):
-    try: 
+    try:
         return int(a) / int(b)
     except ValueError:
         print('Valor incorreto')
@@ -67,10 +68,11 @@ num2 = input('Informe o segundo número: ')
 print(dividir(num1, num2))
 
 # Exemplo Complexo genérico
-# OBS: Você é responsável pelas entradas das suas funções. 
+# OBS: Você é responsável pelas entradas das suas funções.
+
 
 def dividir(a, b):
-    try: 
+    try:
         return int(a) / int(b)
     except:
         return 'Ocorreu um erro'
@@ -82,10 +84,11 @@ num2 = input('Informe o segundo número: ')
 print(dividir(num1, num2))
 
 # Exemplo Complexo semi-genérico
-# OBS: Você é responsável pelas entradas das suas funções. 
+# OBS: Você é responsável pelas entradas das suas funções.
+
 
 def dividir(a, b):
-    try: 
+    try:
         return int(a) / int(b)
     except (ValueError, ZeroDivisionError) as err:
         return f'Ocorreu um erro: {err}'
